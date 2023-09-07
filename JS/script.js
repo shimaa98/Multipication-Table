@@ -4,8 +4,8 @@ const table = document.getElementById("mul_table"),
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   let header = `<tr>
-  <th>Multiplicand</th>
   <th>Multiplier</th>
+  <th>Multiplicand</th>
   <th>Product</th>
     </tr>`;
   table.innerHTML = header;
